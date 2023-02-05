@@ -1,15 +1,8 @@
-import React from "react";
-import User from "./Error/User";
-import ErrorBoundary from "./Error/ErrorBoundary";
-
+import Tab from "./Tab";
 const App = () => {
-
     return (
         <div>
-            <h1>Hello from App!</h1>
-            <ErrorBoundary>
-                <User />
-            </ErrorBoundary>
+            <Tab />
         </div>
     );
 };
